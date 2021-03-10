@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>Register | Flask</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ body
+    {
+        background-image: url("https://www.aithority.com/wp-content/uploads/2019/06/Terminator-Teaches-Us-About-AI-and-the-Need-for-Better-Data-guest-post.jpg")
+    }
+section{
+  text-align:center;
+}
+.footer #button{
+    width:35px;
+    height:35px;
+    border: #727172 12px solid;
+    border-radius:35px;
+    margin:0 auto;
+    position:relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+    width:35px;
+    height:35px;
+    border: #3A3A3A 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position:relative;
+}
+.footer {
+    background-color: white;
+    bottom:0;
+    left:0;
+    position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index:999;
+}
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    height: 10em;
+}
+.footer #container{
+    margin-top:5px;
+    width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+    background: white;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+    width:150px;
+    height:auto;
+    margin:0 auto;
+}
+.footer_center{
+    width:500px;
+    float:left;
+  text-align:center;
+}
+.footer h3{
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 100;
+    margin-top:70px;
+    margin-left:40px;
+}
+</style>
+<body>
+    <ul>
+  <li><a href="http://127.0.0.1:5000/">Home</a></li>
+  <li><a href="https://timesofindia.indiatimes.com/">News</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+<br><br>
+<div>
+                <form method="POST" style="background-color: white; margin: 20px;
+                      padding: 16px 20px; right: 20px; position: absolute; height: 60%; width: 380px;">
+                    <div class="form-group">
+                      <label for="email">Username : </label>
+                      <input type="text" name="uname" class="form-control" id="uname">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email : </label>
+                      <input type="email" name="mail" class="form-control" id="mail">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Password : </label>
+                      <input type="password" name="passw" class="form-control" id="passw">
+                    </div>
+                    <button type="submit" style="background-color: #0000cd;color: white;padding: 16px 20px;border: none;cursor: pointer;width: 100%;opacity: 0.9;">Register</button>
+                </form>
+
+</div>
+
+<div class="footer">
+  <div id="button"></div>
+      <center> <h4>||Designed And Devloped by: Abhishek Gautam(AKA) and Saksham Jain || </h4></center>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
